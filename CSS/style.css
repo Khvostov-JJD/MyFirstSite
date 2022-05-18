@@ -1,0 +1,58 @@
+/*MENU*/
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+	font-family: 'Goblin One', cursive;
+}
+
+nav{
+	background-color: #4EBCE8;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+nav a{ 
+	text-decoration: none;
+	font color: #077406;
+	font-size: 1.7rem;
+}
+nav li{
+	display: inline;
+	margin: 70px;
+
+}
+
+/*MAIN*/
+
+.main_block{
+	display: flex;
+	flex-direction: row;
+	align-content: space-between;
+}
+main img{
+	width: 90%;
+	height: 90%;
+	margin: 10px;
+}
+
+.main_image{
+	width: 50%;
+}
+.main_text{
+	width: 50%;
+	margin: 60px;
+	text-align: left;
+	align-items: : center;
+	justify-content: center;
+
+}
+
+
